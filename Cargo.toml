@@ -1,0 +1,19 @@
+[package]
+name = "first-program"
+version = "0.1.0"
+edition = "2018"
+
+# first binary in addition to the program name
+[[bin]]
+name = "new-first-program"
+path = "src/main.rs"
+
+# second binary
+[[bin]]
+name = "new-second-program"
+# note the new second.rs file
+path = "src/second.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
